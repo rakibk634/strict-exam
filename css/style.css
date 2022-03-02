@@ -1,0 +1,359 @@
+/*fonts installation starts*/
+@font-face {
+  font-family: Lato-Regular;
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+  font-family: Lato-Bold;
+  src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+
+/*fonts installation ends*/
+
+/*common starts*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Lato-Regular;
+  font-size: 20px;
+  color: #999999;
+}
+
+/*common ends*/
+
+/*header starts*/
+
+.head {
+  padding: 30px 0;
+  background-color: #f9f9f6;
+}
+
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  /*border: 1px solid red;*/
+  width: 80%;
+}
+
+.logo {
+  width: 10%;
+  float: left;
+  /*border: 1px solid blue;*/
+}
+
+.logo img {
+  width: 100%;
+  padding-top: 10px;
+}
+
+.menu {
+  width: 40%;
+  float: right;
+  /*border: 1px solid yellowgreen;*/
+}
+
+.menu ul {
+  float: right;
+}
+
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+
+.menu ul li a {
+  display: inline-block;
+  margin: 0 30px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  font-family: Lato-Regular;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  border-bottom: 1px solid transparent;
+  transition: ease-in 0.4s;
+}
+
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+
+.menu ul li a:hover {
+  border-bottom: 2px solid #15a4fa;
+}
+
+/*header ends*/
+
+/* banner start */
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bcontent {
+  text-align: center;
+}
+
+.bcontent h1 {
+  font-family: Lato-Bold;
+  font-size: 120px;
+  font-weight: 700;
+  margin: 180px 0 20px;
+  padding: 0 50px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #15a4fa;
+}
+
+.bcontent p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.bcontent button {
+  margin: 63px 0 180px;
+  padding: 15px 40px;
+  font-family: Lato-Regular;
+  font-size: 18px;
+  color: #fff;
+  background: transparent;
+  border: 1px solid #15a4fa;
+  border-radius: 3px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.bcontent button:hover {
+  background-color: #15a4fa;
+  border: 1px solid #000000;
+}
+.bcontent p:last-child {
+  margin: 0;
+  font-family: FontAwesome-Regular;
+  font-weight: 400;
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+
+.bimg img {
+  margin-bottom: 82px;
+}
+
+/* banner end */
+
+/* Simple & pure strat */
+.pure {
+  padding: 82px 0 112px;
+  background-color: #f6f9f9;
+  text-align: center;
+}
+
+.pure h2 {
+  margin: 0;
+  font-family: Lato-Regular;
+  font-size: 40px;
+  font-weight: 400;
+  color: #2d3950;
+}
+.pure p {
+}
+/* Simple & pure end */
+
+/*feature start*/
+
+.fea {
+  padding: 65px 0;
+  background-color: #fff;
+}
+
+.singlefea {
+  overflow: hidden;
+}
+
+.single {
+  margin-right: 12.5%;
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+
+.single:last-child {
+  margin-right: 0;
+}
+
+.fimg {
+}
+
+.fimg img {
+}
+
+.single h3 {
+  font-family: Lato-Regular;
+  font-size: 22px;
+  font-weight: 400;
+  color: #2d3950;
+}
+
+.single p {
+  font-family: Lato-Regular;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*feature start*/
+
+/* Gallery start */
+.showcase {
+  padding: 83px 0 115px;
+  background-color: #f6f9f9;
+  overflow: hidden;
+}
+.showcases {
+  text-align: center;
+}
+
+.showcases h2 {
+  font-size: lato-Regular;
+  font-size: 41px;
+  font-weight: 400;
+  color: #2d3950;
+}
+
+.showcases p {
+  margin-bottom: 50px;
+  font-family: lato-Regular;
+  font-size: 15px;
+  color: #909090;
+}
+.gallery {
+  float: left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  width: 31%;
+}
+.gallery img {
+  width: 100%;
+}
+
+/* Gallery end */
+
+/* contact form start */
+.contact {
+  padding: 50px 0 80px;
+  background-image: url("../images/formimage.jpg");
+  background-size: cover;
+}
+.container2 {
+  margin: 0 auto;
+  width: 40%;
+}
+.fcontent {
+  overflow: hidden;
+}
+.fcontent h2 {
+  margin: 0;
+  text-align: center;
+  font-family: lato-Regular;
+  font-size: 41px;
+  font-size: 40px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.fcontent p {
+  font-family: lato-regular;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 5%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+}
+.fcontent input {
+  margin-bottom: 2%;
+  padding: 15px 15px;
+  font-family: Lato-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  width: 94%;
+  background-color: transparent;
+  border: 1px solid #909090;
+  border-radius: 3px;
+}
+.fcontent input:focus {
+  outline: 0;
+}
+textarea {
+  margin-bottom: 2%;
+  padding: 15px 15px;
+  min-height: 160px;
+  font-family: Lato-Regular;
+  font-size: 15px;
+  font-weight: 400;
+  color: #999999;
+  width: 94%;
+  background-color: transparent;
+  border: 1px solid #909090;
+  border-radius: 3px;
+}
+textarea:focus {
+  outline: 0;
+}
+.send {
+  overflow: hidden;
+}
+.ov {
+  margin-top: 10px;
+  margin-right: 10px;
+  float: left;
+  display: inline;
+}
+.send span {
+  font-size: 15px;
+  color: #ffffff;
+}
+.send button {
+  padding: 15px 50px;
+  float: right;
+  font-family: Lato-Regular;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #15a4fa;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.send button:hover {
+  background-color: #ffffff;
+  color: #15a4fa;
+  border: 1px solid #ffffff;
+}
+/* contact form end */
+
+/* footer start */
+.foot {
+  background-color: #f9f9f9;
+  padding: 20px 0 20px;
+}
+.foot_left {
+  float: left;
+  display: inline-block;
+}
+.foot_left p {
+  font-family: lato-Regular;
+  font-size: 15px;
+  font-weight: 400;
+}
+.foot_right {
+  padding-top: 5px;
+  float: right;
+  display: inline-block;
+}
+/* footer end */
